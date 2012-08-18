@@ -1,0 +1,20 @@
+name: CreativeBuild
+main: me.captain.CreativeBuild.CreativeBuild
+author: captainawesome7
+version: 1.5
+commands:
+  CBCLEAR:
+    Description: Clear your inventory
+    Usage: /cbclear
+  CBON:
+    Description: Turn cb on (player optional)
+    Usage: /cbon <playername>
+  CBOFF:
+    Description: Turn cb off (player optional)
+    Usage: /cboff <playername>
+  DROPSON:
+    Description: Turn item drops on
+    Usage: /dropson
+  DROPSOFF:
+    Description: Turn item drops on
+    Usage: /dropsoff

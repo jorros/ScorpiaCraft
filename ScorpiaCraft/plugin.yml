@@ -1,0 +1,55 @@
+name: ScorpiaCraft
+main: de.scorpiacraft.ScorpiaCraft
+version: 1.3
+author: jorros
+website: http://www.scorpiacraft.de/
+loadbefore: [dynmap]
+commands:
+   save:
+      usage: /save
+      permission: scorpiacraft.save
+   load:
+      usage: /load
+      permission: scorpiacraft.load
+   back:
+      usage: /back
+      permission: scorpiacraft.back
+   plot:
+      usage: /plot [server/sale/npc/none]
+      permission: scorpiacraft.plot
+   home:
+      usage: /home [set]
+      permission: scorpiacraft.home
+   shop:
+      usage: /shop <price/name>
+      permission: scorpiacraft.shop
+   tp:
+      usage: /tp <location/player>
+      permission: scorpiacraft.tp
+   balance:
+      usage: /balance
+      permission: scorpiacraft.balance
+   adyll:
+      usage: /adyll
+      permission: scorpiacraft.adyll
+   instinct:
+      usage: /instinct
+      permission: scorpiacraft.instinct
+   help:
+      usage: /help
+      permission: scorpiacraft.help
+   afk:
+      usage: /afk
+      permission: scorpiacraft.afk
+   info:
+      usage: /info <player>
+      permission: scorpiacraft.info
+   spleef:
+      usage: /spleef create/set/join/leave/start <name> [start/end/mode] <mode/level> 
+      permission: scorpiacraft.spleef
+   vip:
+      usage: /vip
+      permission: scorpiacraft.vipstatus
+   class:
+      usage: /class <class> choice
+      permission: scorpiacraft.class
